@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abhaya_libre_medium</item>
+        <item>@font/artifika</item>
+        <item>@font/hind_guntur</item>
+        <item>@font/montserrat_subrayada</item>
+        <item>@font/stalinist_one</item>
+    </array>
+</resources>

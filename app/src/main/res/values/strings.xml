@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BambiniFashion</string>
+    <string name="menu">Menu</string>
+    <string name="home">Home</string>
+    <string name="bag">Bag</string>
+    <string name="search">Search</string>
+    <string name="designers">Designers</string>
+    <string name="bambinifashion_com">BAMBINIFASHION.COM</string>
+    <string name="page_is_empty">Page is empty.</string>
+</resources>

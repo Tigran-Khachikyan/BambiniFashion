@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.bambinifashion.ui.screen.home.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_menu"
+        android:name="com.example.bambinifashion.ui.screen.menu.MenuFragment"
+        android:label="@string/menu"
+        tools:layout="@layout/fragment_menu" />
+    <fragment
+        android:id="@+id/nav_bag"
+        android:name="com.example.bambinifashion.ui.screen.bag.BagFragment"
+        android:label="@string/bag"
+        tools:layout="@layout/fragment_bag" />
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.example.bambinifashion.ui.screen.search.SearchFragment"
+        android:label="@string/search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/nav_designers"
+        android:name="com.example.bambinifashion.ui.screen.designers.DesignersFragment"
+        android:label="@string/designers"
+        tools:layout="@layout/fragment_designers" />
+</navigation>
